@@ -1,4 +1,4 @@
-Burger App
+## Burger App
 
 An small project applying basic concepts of React JS
 
