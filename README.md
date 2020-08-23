@@ -1,6 +1,7 @@
 ## Burger App
 
-An small project applying basic concepts of React JS
+On this project i have developed this app by  following basic concepts with React.js and Redux.
+You can make a hamburguers in order to make orders virtually.
 
 ## Available Scripts
 
