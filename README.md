@@ -18,4 +18,4 @@ Some tests has been made with Test Running with React.
 
 This has been deployed on Firebase with the following URL: https://react-my-burger-1750c.web.app/
 
-*** Ing. Oscar Rolando Gamboa A. ***
+***Ing. Oscar Rolando Gamboa A.***
