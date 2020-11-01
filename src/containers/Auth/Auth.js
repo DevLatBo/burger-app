@@ -42,14 +42,14 @@ const Auth = props => {
                 touched: false
             },
         });
-        const [isSignUp, setIsSignUp] = useState(true);
-    
+    const [isSignUp, setIsSignUp] = useState(true);
+    const {buildingBurger, authRedirectPath, onSetRedirectPath} = props;
 
     useEffect(() => {
-        if(!props.buildingBurger && props.authRedirectPath) {
-            props.onSetRedirectPath();
+        if(!buildingBurger && authRedirectPath !== '/') {
+            onSetRedirectPath();
         }
-    }, []);
+    }, [buildingBurger, authRedirectPath, onSetRedirectPath]);
 
     
 
